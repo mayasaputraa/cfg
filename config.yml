@@ -1,0 +1,6 @@
+# cfg — Maya Saputraa
+services:
+  app:
+    image: alpine:latest
+    command: ["echo", "ping from mayasaputraa"]
+    restart: unless-stopped
